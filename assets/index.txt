@@ -1,0 +1,1 @@
+In this directory store images and statics.

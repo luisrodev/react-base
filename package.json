@@ -1,0 +1,45 @@
+{
+  "name": "react-base",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "eslint": "eslint './src/**/*.{js,jsx}'",
+    "eslint:fix": "eslint './src/**/*.{js,jsx}' --fix",
+    "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "eslint",
+    "prettier",
+    "javascript"
+  ],
+  "author": "Luis Rubio <luirting@gmail.com>",
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "prettier": "^2.0.5",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
