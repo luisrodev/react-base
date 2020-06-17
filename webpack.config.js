@@ -29,7 +29,7 @@ module.exports = (env, { mode }) => {
     entry: './src/index.js',
     output: {
       path: path.resolve(__dirname, 'dist'),
-      filename: 'bundle.js',
+      filename: 'app.[contentHash].js',
     },
     resolve: {
       extensions: ['.js', '.jsx'],
